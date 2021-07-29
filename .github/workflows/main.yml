@@ -28,7 +28,7 @@ jobs:
     - name: Creating Tunnel
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp 3389"'
     - name: Connecting To RDP
-      run: cmd /c Gar2007.bat
+
     - name: Install Success RDP Sekarang Bisa Di Akses Selamat Mencoba! By Gar2007@Dark Skeleton Team
       run: | 
         Invoke-WebRequest https://raw.githubusercontent.com/Gar2007/FREE-RDP/main/loop.ps1 -OutFile loop.ps1
